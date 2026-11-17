@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111216">
+<title>YAPLAY — Top Up Game</title>
+<style>
+:root{--red:#f32630;--deep:#85000c;--panel:#20232d;--panel2:#15171d;--gold:#ffd83d;--muted:#b8bac3}
+*{box-sizing:border-box}body{margin:0;color:#fff;font-family:Arial,Helvetica,sans-serif;background:#09090c url("https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200") center top/cover fixed no-repeat}
+body:before{content:"";position:fixed;inset:0;background:linear-gradient(180deg,#08090be8,#39070be8 48%,#09090cf5);z-index:-1}
+.wrap{max-width:1050px;margin:auto}.header{height:76px;background:#101116;display:flex;align-items:center;padding:0 18px;gap:16px;position:sticky;top:0;z-index:5;border-bottom:1px solid #292b32}.hamb{font-size:30px}.logo{font-size:28px;font-weight:1000;font-style:italic;letter-spacing:-1px}.logo b{color:#ff3039;text-shadow:0 0 10px #ff3039}.grow{flex:1}.header a{color:#fff;text-decoration:none;font-weight:800}.login{background:linear-gradient(#ff4242,#b40012);border:2px solid var(--gold);border-radius:11px;padding:10px 18px;color:white;font-weight:900;font-size:15px}
+main{padding:10px 14px 105px}.provider-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.provider{height:54px;background:linear-gradient(145deg,#272b37,#1a1d26);border:1px solid #303543;border-radius:8px;display:flex;align-items:center;gap:8px;padding:6px 8px;font-weight:800;font-size:12px;box-shadow:0 3px 8px #0008}.provider .mini{width:29px;height:29px;flex:0 0 29px;border-radius:6px;display:grid;place-items:center;background:linear-gradient(135deg,#fa3c49,#6827a4);font-size:16px}.search{margin:15px 0 0;height:62px;background:#17191f;border:1px solid #3a3d46;border-radius:40px;display:flex;align-items:center;padding:0 21px;gap:10px;box-shadow:0 5px 18px #0008}.search input{background:transparent;border:0;outline:0;color:white;width:100%;font-size:16px}.search span{font-size:25px}.banner{margin-top:20px;border-radius:12px;background:linear-gradient(110deg,#ff3139,#a80011 65%,#4b0610);padding:22px 20px;min-height:130px;box-shadow:inset 0 0 25px #ffaaaa33,0 6px 18px #0008;border:1px solid #ff5a60}.banner small{font-weight:900;letter-spacing:3px;color:#ffe3e3}.banner h1{font-size:clamp(28px,7vw,48px);margin:8px 0 3px;text-shadow:0 3px #74000a}.banner p{margin:0;color:#ffe3e3;font-size:13px}.all{margin:15px 0 18px;width:100%;height:94px;border:0;border-radius:12px;background:#ff3039;color:#fff;font-weight:900;font-size:22px;box-shadow:0 7px 16px #0007}.heading{display:flex;align-items:center;justify-content:space-between;margin:10px 2px}.heading h2{font-size:17px;margin:0}.heading a{font-size:12px;color:#ff7379;text-decoration:none;font-weight:800}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{background:#171a22;border:1px solid #343846;border-radius:17px;padding:12px;box-shadow:0 7px 18px #0009}.art{height:140px;border-radius:10px;display:grid;place-items:center;font-size:50px;background:radial-gradient(circle at 50% 30%,#bb394b,#44202d 58%,#171922);border:1px solid #56404a}.card:nth-child(2n) .art{background:radial-gradient(circle at 50% 30%,#5269b7,#20243b 58%,#151720)}.card h3{margin:11px 0 4px;font-size:15px}.card p{margin:0 0 11px;color:var(--muted);font-size:12px}.action{width:100%;border:0;background:linear-gradient(#ff424b,#c20c1a);color:white;padding:11px;border-radius:8px;font-weight:900}.bottom{position:fixed;bottom:0;left:0;right:0;z-index:8;background:linear-gradient(#c90012,#55000a);border:3px solid #f4d43e;box-shadow:0 -4px 20px #000b;display:grid;grid-template-columns:repeat(4,1fr);padding:8px 4px max(8px,env(safe-area-inset-bottom))}.bottom a{text-decoration:none;color:#ddd;text-align:center;font-size:12px;font-weight:700}.bottom i{font-style:normal;display:block;font-size:25px;margin-bottom:3px}.foot{text-align:center;color:#aeb0b9;font-size:10px;padding:18px 8px}
+@media(min-width:720px){main{padding:20px}.provider-grid{grid-template-columns:repeat(4,1fr)}.cards{grid-template-columns:repeat(4,1fr)}.art{height:165px}.banner{padding:30px}.all{height:75px}}
+</style></head>
+<body>
+<header class="header"><div class="hamb">☰</div><div class="logo"><b>Y</b>APLAY</div><div class="grow"></div><a href="#daftar">Daftar</a><button class="login" onclick="alert('Fitur masuk akan aktif setelah backend dibuat.')">MASUK</button></header>
+<main class="wrap">
+<div class="provider-grid" aria-label="Kategori game">
+<div class="provider"><span class="mini">⚔️</span>Mobile Legends</div><div class="provider"><span class="mini">🔥</span>Free Fire</div><div class="provider"><span class="mini">🎯</span>PUBG Mobile</div>
+<div class="provider"><span class="mini">✨</span>Genshin Impact</div><div class="provider"><span class="mini">🏆</span>Honor of Kings</div><div class="provider"><span class="mini">🧱</span>Roblox</div>
+<div class="provider"><span class="mini">🛡️</span>Valorant</div><div class="provider"><span class="mini">🎖️</span>Call of Duty</div><div class="provider"><span class="mini">🎮</span>Game lainnya</div>
+</div>
+<label class="search"><input id="q" placeholder="Cari Game" oninput="filter()"><span>⌕</span></label>
+<section class="banner"><small>TOP UP GAME • CEPAT • PRAKTIS</small><h1>YAPLAY</h1><p>LEVEL UP YOUR GAME — Top up game favoritmu di sini.</p></section>
+<button class="all" onclick="document.querySelector('#popular').scrollIntoView({behavior:'smooth'})">Semua Fitur</button>
+<div class="heading" id="popular"><h2>Game Populer</h2><a href="#popular">LIHAT SEMUA</a></div>
+<div class="cards" id="cards">
+<article class="card" data-name="Mobile Legends"><div class="art">⚔️</div><h3>Mobile Legends</h3><p>Diamond • Weekly Pass</p><button class="action" onclick="pick('Mobile Legends')">TOP UP</button></article>
+<article class="card" data-name="Free Fire"><div class="art">🔥</div><h3>Free Fire</h3><p>Diamond • Membership</p><button class="action" onclick="pick('Free Fire')">TOP UP</button></article>
+<article class="card" data-name="PUBG Mobile"><div class="art">🎯</div><h3>PUBG Mobile</h3><p>UC • Royale Pass</p><button class="action" onclick="pick('PUBG Mobile')">TOP UP</button></article>
+<article class="card" data-name="Genshin Impact"><div class="art">✨</div><h3>Genshin Impact</h3><p>Genesis Crystal</p><button class="action" onclick="pick('Genshin Impact')">TOP UP</button></article>
+<article class="card" data-name="Roblox"><div class="art">🧱</div><h3>Roblox</h3><p>Robux</p><button class="action" onclick="pick('Roblox')">TOP UP</button></article>
+<article class="card" data-name="Honor of Kings"><div class="art">🏆</div><h3>Honor of Kings</h3><p>Tokens</p><button class="action" onclick="pick('Honor of Kings')">TOP UP</button></article>
+</div>
+<p class="foot">YAPLAY • LEVEL UP YOUR GAME<br>Prototype tampilan. Transaksi, harga live, login, dan API supplier belum aktif.</p>
+</main>
+<nav class="bottom"><a href="#"><i>⌂</i>Rumah</a><a href="#popular"><i>％</i>Promo</a><a href="#bantuan"><i>☎</i>Hubungi Kami</a><a href="#bantuan"><i>☏</i>Bantuan</a></nav>
+<script>
+function filter(){let q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('.card').forEach(c=>c.style.display=c.dataset.name.toLowerCase().includes(q)?'block':'none')}
+function pick(n){alert('Pilihan '+n+'. Form ID pemain dan pembayaran akan diaktifkan setelah backend terhubung.')}
+</script></body></html>
